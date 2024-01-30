@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@100&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+  </style>
+
+  <style>
+    .Parentdiv {
+
+      display: flex;
+      justify-content: center;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin-left: 25%;
+      margin-right: 25%;
+      box-shadow: 2px 2px 4px 4px rgb(195, 195, 195);
+      border-radius: 10px;
+
+
+    }
+
+    .firstdiv {
+      width: 50%;
+      justify-content: center;
+      background-image: url(been.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-radius: 5px;
+    }
+
+    .seconddiv {
+      width: 45%;
+      justify-content: center;
+      align-items: baseline;
+      padding: 35px;
+    }
+
+    .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+
+    .ankertag {
+      text-decoration: none;
+      font-weight: bolder;
+      font-size: 15px;
+      color: rgb(255, 255, 255);
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+
+  <script src="https://kit.fontawesome.com/b3bb259a44.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="Parentdiv" style="border: 10%;">
+    <div class="firstdiv">
+    </div>
+
+
+
+    <div class="seconddiv">
+      <p style="color: grey; font-family: 'Montserrat', sans-serif; letter-spacing: 5px;">PERFUME</p>
+
+      <div style=" font-size: 30px;">
+        <p style="font-family: 'Fraunces', serif;">
+          Gabrielle Essence Eau De Parfum
+        </p>
+      </div>
+
+      <p style="font-size: 14px; color: grey; font-family: 'Montserrat', sans-serif; letter-spacing: 2px;">
+        A floral, solar and valuputuous interpretation composed by Olivier Polge, Perfumer-Creator for the house of
+        CHANEL.</p>
+
+      <div style=" display:flex; padding: 7px; word-spacing: 25px;">
+
+        <span>
+          <h1 style="color: rgb(93, 179, 93); font-family: 'Fraunces', serif;">$149.99</h1>
+        </span>&nbsp;
+        <span>
+          <strike style="color: grey; font-family: 'Montserrat', sans-serif; text-align: center;">
+            <h4>$169.99</h4>
+          </strike>
+        </span>
+
+      </div>
+
+      <div class="button">
+        <button style="border: 20px;
+          background-color: rgb(18, 41, 18); 
+          padding-left: 100px; 
+          padding-right: 100px; 
+          padding-top: 20px; 
+          padding-bottom: 20px; 
+          border-radius: 10px;">
+          <a href="" class="ankertag"><i class="fa-solid fa-cart-shopping"></i> Add to Cart </a>
+        </button>
+      </div>
+
+      <!-- - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+      - Weights: 500, 700
+      
+      - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+      - Weights: 700
+       -->
+    </div>
+  </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        padding-inline: 30px;
+      }
+      #car-container {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        row-gap: 20px;
+      }
+      .card {
+        /* background-color: red; */
+        height: 250px;
+        width: 180px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 1px 1px 8px lightgray;
+      }
+
+      .card div img {
+        height: 100%;
+        width: 100%;
+      }
+      .car-data {
+        padding: 8px 10px;
+      }
+      .car-data h2 {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+
+      .car-data p {
+        font: 14px;
+      }
+      .select-container {
+        margin-block: 20px;
+      }
+      .input-container {
+        display: flex;
+        gap: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">Cars Data</h1>
+    <div class="input-container">
+      <div class="select-container">
+        <select id="select-box">
+          <option value="name-1">Sort By Name (Asc)</option>
+          <option value="name-0">Sort By Name (Des)</option>
+          <option value="model-1">Sort By Model (Asc)</option>
+          <option value="model-0">Sort By Model (Desc)</option>
+        </select>
+      </div>
+      <div class="select-container">
+        <select id="filter-box">
+          <option value="All">All</option>
+          <option value="Hybrid">Hybrid</option>
+          <option value="Electric">Electric</option>
+          <option value="Diesel">Diesel</option>
+          <option value="Gasoline">Gasoline</option>
+        </select>
+      </div>
+      <div class="select-container">
+        <input type="text" id="search-input" placeholder="Enter a car name to search" />
+      </div>
+    </div>
+    <div id="car-container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html> -->
